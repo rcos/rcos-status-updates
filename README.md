@@ -21,13 +21,19 @@ git clone https://github.com/your-username/rcos-status-updates.git
 cd rcos-status-updates
 ```
 
-3. Add this repository (`rcos/rcos-status-updates`) as the `upstream` [git remote](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) to your local copy:
+3. Copy the `.new_semester` template directory to store your status updates for the semester. This directory **must** use the `year_semester` naming convention, all lowercase. For example:
 
 ```
-git remote add upstream https://github.com/rcos/rcos-status-updates.git
+2018_summer
+2018_fall
+2019_spring
 ```
 
-This will enable you to easily sync changes made in `rcos/rcos-status-updates` with your repository.
+You can copy the `.new_semester` directory with the following command:
+
+```
+cp -R .new_semester 2018_summer
+```
 
 4. First-time setup is complete :)
 
@@ -44,11 +50,20 @@ cd ~/code/rcos-status-updates
 
 Make sure that all your current changes have been saved and committed - you can check with the `git status` command.
 
-2. Pull the latest changes from this repository (`rcos/rcos-status-updates`):
+2. Copy the `.new_semester` template directory to store your status updates for the semester. This directory **must** use the `year_semester` naming convention, all lowercase. For example:
 
 ```
-git pull upstream/master
+2018_summer
+2018_fall
+2019_spring
 ```
+
+You can copy the `.new_semester` directory with the following command:
+
+```
+cp -R .new_semester 2018_summer
+```
+
 
 3. Returning student setup is complete :)
 
