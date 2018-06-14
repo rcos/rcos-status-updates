@@ -1,36 +1,73 @@
 # rcos-status-updates
-A starter repository for weekly status updates
+A starter repository for RCOS student status updates.
 
 ## What are Status Updates?
 
-Status Updates are a weekly short-form blog post detailing the progress made during the previous week.
+Status Updates are informal weekly short-form blog posts detailing a student's progress in RCOS during the previous week. Please consult the [RCOS Handbook](https://handbook.rcos.io/#/grading/status_updates) for a detailed overview of background and requirements.
 
-## Instructions
+## System Requirements
+- [Git](https://git-scm.com/)
 
-1. Fork the `rcos/rcos-status-updates` repository so you have your own copy.
+## First-Time Setup
 
-2. Clone the `your-username/rcos-status-updates` repository down to your local machine
+**If you're a first-time RCOS student follow these steps to get started:**
 
-3. Write your status update
+1. Fork this repository (`rcos/rcos-status-updates`) so you have your own copy.
 
-4. Commit your changes (`git add . && git commit -m 'Added status update for week 01'`)
+2. Clone the your fork of this repository down to your local machine and navigate into the resulting directory:
 
-5. Push your status update to your fork (`git push origin master`)
+```
+git clone https://github.com/your-username/rcos-status-updates.git
+cd rcos-status-updates
+```
 
-## Weekly Routine
+3. Add this repository (`rcos/rcos-status-updates`) as the `upstream` [git remote](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) to your local copy:
 
-1. Each week at the beginning of small group write a short update detailing what you've worked on the previous week, what you want to work on this week, and what (if anything) is blocking your ongoing progress. Please include links to any GitHub issues, GitHub pull requests, external contributions, or learning materials that you have been involved with during the past week.
+```
+git remote add upstream https://github.com/rcos/rcos-status-updates.git
+```
 
-2. Commit your weekly update (`git add . && git commit -m 'Added Week 2 update'`) and push the changes to your fork (`git push origin master`).
+This will enable you to easily sync changes made in `rcos/rcos-status-updates` with your repository.
+
+4. First-time setup is complete :)
 
 
-## Why Status Updates?
-<!-- TODO - move this into RCOS Handbook, link to it from here. -->
-In the past we had requirements for varying numbers of blog posts to be written during the semester by students in RCOS. Many students would end up producing poorly written, rushed blog posts at the end of the semester to hit their quota - we decided that it would be easier for students to produce a small weekly update.
+## Returning Student Setup
 
-The inclusion of Status Updates in the RCOS grading rubric serves a practical purpose as well - as RCOS has grown as an organization it has become increasingly difficult for a small number of mentors and faculty advisors to gauge the ongoing work of individual students. Weekly Status Updates give mentors a week-by-week overview of the student's progress to better gauge whether or not a particular student is aligned with their goals for the semester.
+**If you're a returning RCOS student follow these steps at the beginning of the semester:**
 
-In summary Status Updates ease the burden of writing "filler" blog posts, simplify the grading process, and enable mentors to ensure students are on-track with their semester goals.
+1. Navigate to your local copy of this repository, for example:
 
-<!-- # TODOs -->
-<!-- - We should develop a script that can generate a report on a student's status updates -->
+```
+cd ~/code/rcos-status-updates
+```
+
+Make sure that all your current changes have been saved and committed - you can check with the `git status` command.
+
+2. Pull the latest changes from this repository (`rcos/rcos-status-updates`):
+
+```
+git pull upstream/master
+```
+
+3. Returning student setup is complete :)
+
+
+## Submitting Status Updates
+
+1. Write a new status update in the directory corresponding to the current semester (i.e. `summer_2018`).
+
+2. Track and commit your changes:
+
+```
+git add .
+git commit -m 'Added status update for week 01'
+```
+
+3. Push your status update to the `master` branch of your fork:
+
+```
+git push origin master
+```
+
+4. All done :)
