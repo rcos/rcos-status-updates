@@ -12,7 +12,7 @@ Status Updates are informal weekly short-form blog posts detailing a student's p
 
 ## Submitting Status Updates
 
-1. Write a new status update in the directory corresponding to the current semester (i.e. `summer_2018`).
+1. Write a new status update in the directory corresponding to the current semester (i.e. `summer_2018`). Please use [Markdown](https://en.wikipedia.org/wiki/Markdown) and name this file something like `week_01.md`.
 
 2. Track and commit your changes:
 
@@ -36,7 +36,7 @@ git push origin master
 
 1. Fork this repository (`rcos/rcos-status-updates`) so you have your own copy hosted on GitHub at `github.com/your-username/rcos-status-updates`.
 
-2. Clone the your fork of this repository down to your local machine and navigate into the resulting directory:
+2. Clone your fork of the repository down to your local machine and navigate into the resulting directory:
 
 ```
 git clone https://github.com/your-username/rcos-status-updates.git
