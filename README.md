@@ -5,67 +5,9 @@ A starter repository for RCOS student status updates.
 
 Status Updates are informal weekly short-form blog posts detailing a student's progress in RCOS during the previous week. Please consult the [RCOS Handbook](https://handbook.rcos.io/#/grading/status_updates) for a detailed overview of background and requirements.
 
+
 ## System Requirements
 - [Git](https://git-scm.com/)
-
-## First-Time Setup
-
-**If you're a first-time RCOS student follow these steps to get started:**
-
-1. Fork this repository (`rcos/rcos-status-updates`) so you have your own copy.
-
-2. Clone the your fork of this repository down to your local machine and navigate into the resulting directory:
-
-```
-git clone https://github.com/your-username/rcos-status-updates.git
-cd rcos-status-updates
-```
-
-3. Copy the `.new_semester` template directory to store your status updates for the semester. This directory **must** use the `year_semester` naming convention, all lowercase. For example:
-
-```
-2018_summer
-2018_fall
-2019_spring
-```
-
-You can copy the `.new_semester` directory with the following command:
-
-```
-cp -R .new_semester 2018_summer
-```
-
-4. First-time setup is complete :)
-
-
-## Returning Student Setup
-
-**If you're a returning RCOS student follow these steps at the beginning of the semester:**
-
-1. Navigate to your local copy of this repository, for example:
-
-```
-cd ~/code/rcos-status-updates
-```
-
-Make sure that all your current changes have been saved and committed - you can check with the `git status` command.
-
-2. Copy the `.new_semester` template directory to store your status updates for the semester. This directory **must** use the `year_semester` naming convention, all lowercase. For example:
-
-```
-2018_summer
-2018_fall
-2019_spring
-```
-
-You can copy the `.new_semester` directory with the following command:
-
-```
-cp -R .new_semester 2018_summer
-```
-
-
-3. Returning student setup is complete :)
 
 
 ## Submitting Status Updates
@@ -86,3 +28,27 @@ git push origin master
 ```
 
 4. All done :)
+
+
+## Beginning of Semseter Setup
+
+**These steps are important - if you don't follow them correctly your status updates won't be recognized by our auto-grader.**
+
+1. Fork this repository (`rcos/rcos-status-updates`) so you have your own copy hosted on GitHub at `github.com/your-username/rcos-status-updates`.
+
+2. Clone the your fork of this repository down to your local machine and navigate into the resulting directory:
+
+```
+git clone https://github.com/your-username/rcos-status-updates.git
+cd rcos-status-updates
+```
+
+3. Make a new directory to store your status updates for the semester. This directory **must** use the `year_semester` naming convention, all lowercase. For example:
+
+```
+2018_summer
+2018_fall
+2019_spring
+```
+
+4. Setup is complete :)
