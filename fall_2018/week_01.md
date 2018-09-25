@@ -2,21 +2,22 @@
 
 > In this section, you can write about what you accomplished in the previous week.
 
-> Examples:
-> Bug fixes, Features added, Links to Issues, Links to Pull-Requests, Lightning Talks, Bonus Sessions
+###Features added: Titles to each panel (https://github.com/sjhuang26/html-editor/issues/2#issue-361479105),
+###Resolves first part of the issue.
+
 
 ## This Week's Plan
 
 > In this section, you can write about what you have planned for next week.
 
-> Examples: New Bugs to be fixed, Design choices
+###This Week's Plan:
+###CSS support for site(assignee: sjhuang26)
+###Better header(assignee: Chimoe), which is what I'm going to do.
 
 ## Anything Blocking?
 
-> In this section, you can write about any blockers that you are having trouble in the project.
-
-> Examples: Confusion on how to approach a problem, Limited experience with a specific technology
+###One team member dropped the class.
+###We did not commit small changes very often, which means some conflicts have to be resolved.
 
 ## Notes
 
-> This is an optional section for any sort of information that does not fall under any of the other categories.
