@@ -43,12 +43,14 @@ git clone https://github.com/your-username/rcos-status-updates.git
 cd rcos-status-updates
 ```
 
-3. Make a new directory to store your status updates for the semester. This directory **must** use the `year_semester` naming convention, all lowercase. For example:
+3. Make a new directory to store your status updates for the semester. This directory **must** use the `semester_year` naming convention, all lowercase. For example:
 
 ```
-2018_summer
-2018_fall
-2019_spring
+fall_2018
+spring_2019
+summer_2019
 ```
+
+This repository comes with a starter directory for the current semester (`fall_2018`).
 
 4. Setup is complete :)
