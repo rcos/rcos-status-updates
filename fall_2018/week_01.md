@@ -1,21 +1,14 @@
 ## Last Week's Accomplishments
 
-> In this section, you can write about what you accomplished in the previous week.
-
-> Examples:
-> Bug fixes, Features added, Links to Issues, Links to Pull-Requests, Lightning Talks, Bonus Sessions
+Last week I did some pair-programming with Aaron Shapiro on some front-end boiler plate using React. I also worked briefly on the universal entity library with Dylan.
 
 ## This Week's Plan
 
-> In this section, you can write about what you have planned for next week.
-
-> Examples: New Bugs to be fixed, Design choices
+This week, I plan on working more on the entity library and some other backend functionality if I get to it.
 
 ## Anything Blocking?
 
-> In this section, you can write about any blockers that you are having trouble in the project.
-
-> Examples: Confusion on how to approach a problem, Limited experience with a specific technology
+Need to learn more about MobX if I am going to work on frontend. 
 
 ## Notes
 
