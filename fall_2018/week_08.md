@@ -1,11 +1,15 @@
 ## Last Week's Accomplishments
-Last week was break so nothing got done.
+After fighting with the Python Docker SDK for over a month to try and get it to
+work the way I want to I have finally given up on it. Simply put the Python SDK
+for Docker is bad, it is clear that most of the Docker ecosystem is built
+around Go.
 
 ## This Week's Plan
-Begin trying to get things into a good state for the end of the semester.
+Since I can cut out the Docker SDK now is a great time to fix some of our
+dependency issues.
 
 ## Anything Blocking?
-None
+Nothing anymore.
 
 ## Notes
-I apparently forgot to commit/push the last couple weeks so did that finally.
+Have a busy week, so I might not get a ton done.
