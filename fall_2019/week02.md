@@ -1,6 +1,6 @@
 # RCOS Status Update
 
-## Week 01
+## Week 02
 
 ## Rylan Gupta
 
